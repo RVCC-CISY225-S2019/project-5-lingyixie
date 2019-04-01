@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link href='https://fonts.google.com/specimen/Noto+Serif:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="content">
+                <img class="logo main-col" src="images/logo-1913689.svg" alt="Company Logo">
+                <div class="page-title">Web Dev I</div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="content">
+            <img class="my-picture" src="images/me.jfif" alt="This is a picture of me">           
+                <p class="my-name">Lingyi Xie</p>
+                <p class="my-location">Somerset, NJ</p>
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="content">
+                <div class="about-content">
+                    <p class="iama">I want to be...</p>
+                    <p class="my-info">a web developer master!</p>
+                    <p class="iama">My favorite way to work is...</p>
+                    <p class="my-info">Working at home.</p>
+                    <p class="iama">In my free time, I like to...</p>
+                    <p class="my-info">Watch movies.</p>
+                </div>
+            </div>
+        </section>
+        <section class="pictures">
+                <figure class="fig1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/sky-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/sky-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/sky-small.jpg">
+                    <img src="images/sky-xsmall.jpg" alt="Sky">
+                </picture>
+                  <figcaption>
+                    A sunny day in December.
+                  </figcaption>
+                </figure>
+                <hr>
+            <figure class="fig2">
+                 <picture>
+                    <source media="(min-width: 1024px)" srcset="images/flower-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/flower-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/flower-small.jpg">
+                    <img src="images/flower-xsmall.jpg" alt="flower">
+                </picture>
+                    <figcaption>
+                    A Red flower in December.
+                    </figcaption>
+            </figure>
+                <hr> 
+            <figure class="fig3">
+                 <picture>
+                    <source media="(min-width: 1024px)" srcset="images/flower2-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/flower2-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/flower2-small.jpg">
+                    <img src="images/flower2-xsmall.jpg" alt="flower">
+                </picture> 
+                    <figcaption>
+                    Flowers in December.
+                    </figcaption>
+            </figure>
+            </section>
+        <article id="story" class="story">
+        <h1>Why April 1st is Fool's day</h1>
+            <p> Although April Fools’ Day, also called All Fools’ Day, has been celebrated for several centuries by different cultures, its exact origins remain a mystery.</p>
+            <p>Some historians speculate that April Fools’ Day dates back to 1582, when France switched from the Julian calendar to the Gregorian calendar, as called for by the Council of Trent in 1563.</p>
+            <p>People who were slow to get the news or failed to recognize that the start of the new year had moved to January 1 and continued to celebrate it during the last week of March through April 1 became the butt of jokes and hoaxes.</p>
+            <p>These pranks included having paper fish placed on their backs and being referred to as “poisson d’avril” (April fish), said to symbolize a young, easily caught fish and a gullible person.</p>
+            <p>Historians have also linked April Fools’ Day to festivals such as Hilaria, which was celebrated in ancient Rome at the end of March and involved people dressing up in disguises.</p>
+            <p>There’s also speculation that April Fools’ Day was tied to the vernal equinox, or first day of spring in the Northern Hemisphere, when Mother Nature fooled people with changing, unpredictable weather.</p>
+            <p>April Fools’ Day spread throughout Britain during the 18th century. In Scotland, the tradition became a two-day event, starting with “hunting the gowk,” in which people were sent on phony errands (gowk is a word for cuckoo bird, a symbol for fool) and followed by Tailie Day, which involved pranks played on people’s derrieres, such as pinning fake tails or “kick me” signs on them.</p>
+            <p>In modern times, people have gone to great lengths to create elaborate April Fools’ Day hoaxes. Newspapers, radio and TV stations and Web sites have participated in the April 1 tradition of reporting outrageous fictional claims that have fooled their audiences.</p>
+            <p>In 1957, the BBC reported that Swiss farmers were experiencing a record spaghetti crop and showed footage of people harvesting noodles from trees; numerous viewers were fooled. In 1985, Sports Illustrated tricked many of its readers when it ran a made-up article about a rookie pitcher named Sidd Finch who could throw a fastball over 168 miles per hour.</p>
+            <p>In 1996, Taco Bell, the fast-food restaurant chain, duped people when it announced it had agreed to purchase Philadelphia’s Liberty Bell and intended to rename it the Taco Liberty Bell. In 1998, after Burger King advertised a “Left-Handed Whopper,” scores of clueless customers requested the fake sandwich.</p>
+        </article>
+    </main>
+    <section id="contact" class="form-container">
+        <h1>Get in touch</h1>
+        <div>
+                <fieldset><legend>Please feel free to contact me</legend>
+        <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+            
+            <p>Please enter your email address</p>
+            <p></p>
+            <input type="email" name="email">
+            <p></p>
+            <label id="yes_no_radio">I would like a reply</label>
+            <br>
+            <input type="radio" name="yes_no" checked>Yes
+                    <input type="radio" name="yes_no">No
+            <p>Leave your message below</p>
+            <textarea name="message"></textarea>
+            <br>
+            <br>
+            <button type="submit">Send Message</button></form>
+                                                     
+                </fieldset>       
+        </div>
+    </section>
+
+<footer>
+    <p class="footer">This is my website &copy; Lingyi Xie 2019. </p>
+</footer>
+    </body>
+    
+</html>
