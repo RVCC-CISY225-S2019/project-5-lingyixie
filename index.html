@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <title>About Me</title>
     <meta charset="utf-8">
@@ -8,6 +9,7 @@
     <link href='https://fonts.google.com/specimen/Noto+Serif:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
 </head>
+    
 <body>
     <main class="main">
         <header class="header">
@@ -18,7 +20,12 @@
         </header>
         <section class="hero">
             <div class="content">
-            <img class="my-picture" src="images/me.jfif" alt="This is a picture of me">           
+           <picture>
+					<source media="(min-width: 1024px)" srcset="images/me-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/me-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/me-small.jpg">
+					<img class="my-picture" src="images/me-xsmall.jpg" alt="This is a picture of me">
+				</picture>       
                 <p class="my-name">Lingyi Xie</p>
                 <p class="my-location">Somerset, NJ</p>
             </div>
@@ -36,43 +43,42 @@
             </div>
         </section>
         <section class="pictures">
-                <figure class="fig1">
+                <div class="content">
+                <figure>
                 <picture>
                     <source media="(min-width: 1024px)" srcset="images/sky-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/sky-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/sky-small.jpg">
-                    <img src="images/sky-xsmall.jpg" alt="Sky">
+						<source media="(min-width: 960px)" srcset="images/sky-med.jpg">
+						<source media="(min-width: 640px)" srcset="images/sky-small.jpg">
+						<img src="images/sky-xsmall.jpg" alt="A Sky Image">
                 </picture>
-                  <figcaption>
-                    A sunny day in December.
-                  </figcaption>
+                  <figcaption>A sunny day in December.</figcaption>
                 </figure>
                 <hr>
-            <figure class="fig2">
+            <figure>
                  <picture>
-                    <source media="(min-width: 1024px)" srcset="images/flower-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/flower-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/flower-small.jpg">
-                    <img src="images/flower-xsmall.jpg" alt="flower">
+                    	<source media="(min-width: 1024px)" srcset="images/flower-lrg.jpg">
+						<source media="(min-width: 960px)" srcset="images/flower-med.jpg">
+						<source media="(min-width: 640px)" srcset="images/flower-small.jpg">
+						<img src="images/flower-xsmall.jpg" alt="flower">
                 </picture>
-                    <figcaption>
-                    A Red flower in December.
-                    </figcaption>
+                    <figcaption>A Red flower in December.</figcaption>
             </figure>
                 <hr> 
-            <figure class="fig3">
+            <figure>
                  <picture>
                     <source media="(min-width: 1024px)" srcset="images/flower2-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/flower2-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/flower2-small.jpg">
-                    <img src="images/flower2-xsmall.jpg" alt="flower">
+						<source media="(min-width: 960px)" srcset="images/flower2-med.jpg">
+						<source media="(min-width: 640px)" srcset="images/flower2-small.jpg">
+						<img src="images/flower2-xsmall.jpg" alt="flower">
                 </picture> 
-                    <figcaption>
-                    Flowers in December.
-                    </figcaption>
+                    <figcaption>Flowers in December.</figcaption>
             </figure>
             <hr>
+                    
+            </div>
             </section>
+    </main>
+    <br>
         <article id="story" class="story">
         <h1>Why April 1st is Fool's day</h1>
             <p> Although April Fools’ Day, also called All Fools’ Day, has been celebrated for several centuries by different cultures, its exact origins remain a mystery.</p>
@@ -86,7 +92,7 @@
             <p>In 1957, the BBC reported that Swiss farmers were experiencing a record spaghetti crop and showed footage of people harvesting noodles from trees; numerous viewers were fooled. In 1985, Sports Illustrated tricked many of its readers when it ran a made-up article about a rookie pitcher named Sidd Finch who could throw a fastball over 168 miles per hour.</p>
             <p>In 1996, Taco Bell, the fast-food restaurant chain, duped people when it announced it had agreed to purchase Philadelphia’s Liberty Bell and intended to rename it the Taco Liberty Bell. In 1998, after Burger King advertised a “Left-Handed Whopper,” scores of clueless customers requested the fake sandwich.</p>
         </article>
-    </main>
+    
     <section id="contact" class="form-container">
         <h1>Get in touch</h1>
         <div>
