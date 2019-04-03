@@ -21,15 +21,9 @@ legend {
   }
 
 
-form {
-  border: 0.75em solid;
-  color: 2f4f4f;
-  padding: 1em;
-}
-
 form:focus-within {
-  background: #ff8;
-  color: A9A9A9;
+  background: A9A9A9;
+  color: 000000;
 }
 
 input {
