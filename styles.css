@@ -18,19 +18,7 @@ font-size : 90%;
 text-align : right;
 }
 
-form {
-border : solid 1px;
-padding : 2px;
-}
 
-
-button {
-font-weight : normal;
-}
-
-button:active {
-font-weight : bold;
-}
 
 .focus-visible{
     outline:lightgreen solid 2px;
