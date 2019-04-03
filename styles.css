@@ -10,11 +10,11 @@ body {
 }
 
 
-fieldset { border:1px solid 2f4f4f }
+fieldset { border:0.75em solid 2f4f4f }
 
 legend {
   padding: 0.2em 0.5em;
-  border:1px solid 2f4f4f;
+  border:0.75em solid 2f4f4f;
   color:000000;
   font-size:90%;
   text-align:right;
@@ -22,9 +22,9 @@ legend {
 
 
 form {
-  border: 1px solid;
+  border: 0.75em solid;
   color: 2f4f4f;
-  padding: 4px;
+  padding: 1em;
 }
 
 form:focus-within {
@@ -33,6 +33,6 @@ form:focus-within {
 }
 
 input {
-  margin: 4px;
+  margin: 1em;
 }
 
