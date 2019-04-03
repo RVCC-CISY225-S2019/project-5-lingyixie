@@ -18,7 +18,6 @@ font-size : 90%;
 text-align : right;
 }
 
-form {
-border : solid 1px;
-padding : 2px;
-}
+input:focus {
+  background: 778899;
+  color: 000000;
