@@ -4,9 +4,6 @@ body {
 
 }
 
-input:focus { 
-  background-color: D3D3D3;
-}
 
 .img {
   max-width: 100%;
@@ -22,3 +19,18 @@ legend {
   font-size:90%;
   text-align:right;
   }
+
+form {
+  border: 1px solid;
+  color: gray;
+  padding: 4px;
+}
+
+form:focus-within {
+  background: #ff8;
+  color: D3D3D3;
+}
+
+input {
+  margin: 4px;
+}
