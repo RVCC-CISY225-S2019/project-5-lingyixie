@@ -1,5 +1,5 @@
 body {
-  font-family: Noto serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
 
 }
@@ -7,3 +7,14 @@ body {
 .img {
   max-width: 100%;
 }
+
+
+fieldset { border:1px solid 2f4f4f }
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid 2f4f4f;
+  color:2f4f4f;
+  font-size:90%;
+  text-align:right;
+  }
