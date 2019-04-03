@@ -20,6 +20,11 @@ legend {
   text-align:right;
   }
 
+form {
+  border: 1px solid;
+  color: A9A9A9;
+  padding: 2px;
+}
 
 form:focus-within {
   background: A9A9A9;
