@@ -19,3 +19,20 @@ legend {
   font-size:90%;
   text-align:right;
   }
+
+
+form {
+  border: 1px solid;
+  color: 2f4f4f;
+  padding: 4px;
+}
+
+form:focus-within {
+  background: #ff8;
+  color: A9A9A9;
+}
+
+input {
+  margin: 4px;
+}
+
